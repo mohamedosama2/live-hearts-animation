@@ -1,11 +1,11 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import Cards from "./Cards";
+import HeartLove from "./HeartLove";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Cards />
+      <HeartLove />
     </View>
   );
 }
