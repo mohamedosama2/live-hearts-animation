@@ -2,7 +2,7 @@ import clamp from "clamp";
 import React, { useState, useRef, useEffect } from "react";
 import { Animated, StyleSheet, Text, View, PanResponder } from "react-native";
 
-const Cards = () => {
+const Cards = () => { //
   const [cards, setCards] = useState([
     {
       id: 1,
